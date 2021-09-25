@@ -15,11 +15,12 @@ class createproductform(ModelForm):
         fields = "__all__"
 
 
-class createorderform(ModelForm):
+class createOrderForm(ModelForm):
     class Meta:
         model = Order
         fields = "__all__"
 
+        
 
 class createcustomerform(ModelForm):
     class Meta:
